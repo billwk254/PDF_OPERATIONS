@@ -20,6 +20,8 @@ def main():
         extract_page()
     elif user_operations == 3:
         add_watermark()
+    else:
+        print("Please restart the program and select from the range above.")
 
 
 def merge_documents():
